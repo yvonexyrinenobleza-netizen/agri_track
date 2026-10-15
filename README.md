@@ -1,17 +1,24 @@
-# agri_track
+# AgriTrack: Agricultural Product Monitoring System
 
-A new Flutter project.
+## Summary
+AgriTrack is a Flutter Web application designed to help monitor agricultural products. It provides a simple interface with a Home page and a Login page. The system aims to make agricultural product monitoring easier and more organized.
 
-## Getting Started
+## Current Stack
+- Flutter Web and Dart for the user interface
+- REST API for planned backend services
+- PostgreSQL for planned database storage
 
-This project is a starting point for a Flutter application.
+## Run Locally
+1. Install Flutter SDK and Google Chrome.
+2. Open the project folder in VS Code.
+3. Open the terminal and run:
 
-A few resources to get you started if this is your first Flutter project:
+```bash
+flutter pub get
+flutter run -d chrome
+```
 
-- [Learn Flutter](https://docs.flutter.dev/get-started/learn-flutter)
-- [Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Flutter learning resources](https://docs.flutter.dev/reference/learning-resources)
+## First Checkpoint
+Date: October 15, 2026
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+Commit: Initial Flutter Web project
