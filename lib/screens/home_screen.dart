@@ -43,6 +43,14 @@ class HomeScreen extends StatelessWidget {
                 },
                 child: const Text('Get Started'),
               ),
+              const SizedBox(height: 12),
+              ElevatedButton.icon(
+                onPressed: () {
+                  Navigator.pushNamed(context, '/report');
+                },
+                icon: const Icon(Icons.assignment),
+                label: const Text('Open Report Form'),
+              ),
             ],
           ),
         ),
